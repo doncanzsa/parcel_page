@@ -1,0 +1,17 @@
+{
+  "name": "parcel_project",
+  "version": "1.0.0",
+  "description": "",
+  "sourse": "src/index.html",
+  "scripts": {
+    "start": "parcel serve --port 8080 src/index.html",
+    "build": "parcel build src/index.html --public-url ./"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.10.2",
+    "posthtml-include": "^1.7.4"
+  }
+}
